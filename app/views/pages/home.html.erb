@@ -34,7 +34,6 @@
 
 <ul class="cards">
 <% @posts.each do |post| %>
-  <% if post.user == current_user %>
 <body class="body">
  <div class="cards__item">
     <div class="card">
@@ -46,7 +45,6 @@
       </div>
     </div>
   </div>
-<% end %>
 <% end %>
 
   </ul>
